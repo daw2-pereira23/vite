@@ -40,9 +40,6 @@ $headings-font-family: 'Roboto Slab', serif;
 $principal: #212529;
 $rojo: #E1515F;
 $danger: #369669;
-$titulo-font-family: 'Press Start 2P', cursive; 
-
-// Required
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/maps";
@@ -94,11 +91,16 @@ $titulo-font-family: 'Press Start 2P', cursive;
 
 @import "icon-list";
 
+$titulo-font-family: 'Press Start 2P', cursive; 
+
+// Required
+
 body {
   padding: 1.5rem;
   background-color: $principal;
   color: white;
-  
+  font-family: 'Mitr', sans-serif;
+
 }
 
 /**Mis estilos*/
@@ -118,6 +120,8 @@ body {
 
 }
 
+
+
 #panel{
   border: 1px solid white;
   border-radius: 15px;
@@ -134,4 +138,8 @@ body {
   width: 200px;
   height: 50px;
 
+}
+
+#login{
+  background-image: url(../imagenes/fondologin.jpg);
 }
